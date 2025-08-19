@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    height: 110px;
+    width: 1250px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: fixed; */
+    /* position: absolute; */
+}
+
+.sbar {
+    height: 45px;
+    width: 400px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    /* margin-right: 50px;     */
+}
+
+.nav .sbar .a p {
+    font-size: 16px;
+    /* margin-right: 50px; */
+
+}
+
+.nav .sbar .b p {
+    font-size: 16px;
+    /* margin-right: 30px; */
+
+}
+
+.nav .sbar .c p {
+    font-size: 16px;
+    /* margin-left: 50px; */
+
+}
+
+.nav .sbar .sbarimg img {
+    height: 50px;
+    width: 50px;
+}
+
+.nav .sbar .sbarsearch img {
+    height: 20px;
+    width: 20px;
+    background-color: #ff385c;
+    border-radius: 90px;
+    padding: 8%;
+    margin-top: 8px;
+    margin-right: 30px;
+
+}
+
+.nav img {
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.nav .home {
+    height: 50px;
+    width: 250px;
+    /* background-color: yellowgreen; */
+    align-content: center;
+    margin-right: 20px;
+    display: flex;
+}
+
+.home button img {
+    height: 20px;
+    width: 20px;
+    background-color: whitesmoke;
+    border-radius: 90px;
+    padding: 20%;
+
+
+}
+
+.nav .home p {
+    border-radius: 90px;
+    font-size: 16px;
+    background-color: transparent;
+
+}
+
+.nav .home button {
+    border: 0;
+    border-radius: 90px;
+    background-color: transparent;
+
+}
+
+
+@media screen and (max-width:1128px) {
+    .nav .home p{
+        display: none;
+    }
+}
+
+/* banner 1 */
+
+
+.banner1 {
+    height: 250px;
+    width: 1230px;
+    /* background-color: violet; */
+    position: absolute;
+    top: 110px;
+    display: block;
+}
+
+.banner1 .text {
+    height: 30px;
+    width: 1230px;
+    /* background-color: #ff385c; */
+        margin-left: 50px;
+
+}
+
+.banner1 .scroll1 {
+    height: 200px;
+    width: 1130px;
+    background-color: wheat;
+    margin-left: 50px;
+    display: flex ;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* position: relative; */
+    
+}
+
+
+ .banner1 .scroll1 .div1{
+    height:200px ;
+    width: 200px;
+    background-color: aliceblue;
+    /* position: absolute; */
+} 
+ .banner1 .scroll1 .div2{
+    height:200px ;
+    width: 200px;
+    background-color: aquamarine;
+    /* position: absolute; */
+} 
+  .banner1 .scroll1 .div3{
+    height:200px ;
+    width: 200px;
+    background-color: #ff385c;
+} 
+ .banner1 .scroll1 .div4{
+    height:200px ;
+    width: 200px;
+    background-color: yellow;
+} 
+ .banner1 .scroll1 .div5{
+    height:200px ;
+    width: 200px;
+    background-color: yellowgreen;
+} 
+ .banner1 .scroll1 .div6{
+    height:200px ;
+    width: 200px;
+    background-color: turquoise;
+} 
+ .banner1 .scroll1 .div7{
+    height:200px ;
+    width: 200px;
+    background-color: tomato;
+}  
+.banner1 .scroll1 .div8{
+    height:200px ;
+    width: 200px;
+    background-color: steelblue;
+}  
+
+
+
+/* banner 2 */
+
+
+.banner2 {
+    height: 250px;
+    width: 1230px;
+    /* background-color: violet; */
+    position: absolute;
+    top: 370px;
+    display: block;
+}
+
+.banner2 .text2 {
+    height: 30px;
+    width: 1230px;
+    /* background-color: #ff385c; */
+        margin-left: 50px;
+
+}
+
+.banner2 .scroll2{
+    height: 200px;
+    width: 1130px;
+    background-color: wheat;
+    margin-left: 50px;
+    display: flex ;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* position: relative; */
+    
+}
+
+
+ .banner2 .scroll2 .div1{
+    height:200px ;
+    width: 200px;
+    background-color: aliceblue;
+    /* position: absolute; */
+} 
+ .banner2 .scroll2 .div2{
+    height:200px ;
+    width: 200px;
+    background-color: aquamarine;
+    /* position: absolute; */
+} 
+  .banner2 .scroll2 .div3{
+    height:200px ;
+    width: 200px;
+    background-color: #ff385c;
+} 
+ .banner2 .scroll2 .div4{
+    height:200px ;
+    width: 200px;
+    background-color: yellow;
+} 
+ .banner2 .scroll2 .div5{
+    height:200px ;
+    width: 200px;
+    background-color: yellowgreen;
+} 
+ .banner2 .scroll2 .div6{
+    height:200px ;
+    width: 200px;
+    background-color: turquoise;
+} 
+ .banner2 .scroll2 .div7{
+    height:200px ;
+    width: 200px;
+    background-color: tomato;
+}  
+.banner2 .scroll2 .div8{
+    height:200px ;
+    width: 200px;
+    background-color: steelblue;
+}  
+
+
+
+
+
+
+
+/* banner 3 */
+
+
+.banner3 {
+    height: 250px;
+    width: 1230px;
+    /* background-color: violet; */
+    position: absolute;
+    top: 630px;
+    display: block;
+}
+
+.banner3 .text3 {
+    height: 30px;
+    width: 1230px;
+    /* background-color: #ff385c; */
+        margin-left: 50px;
+
+}
+
+.banner3 .scroll3 {
+    height: 200px;
+    width: 1130px;
+    background-color: wheat;
+    margin-left: 50px;
+    display: flex ;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* position: relative; */
+    
+}
+
+
+ .banner3 .scroll3 .div1{
+    height:200px ;
+    width: 200px;
+    background-color: aliceblue;
+    /* position: absolute; */
+} 
+ .banner3 .scroll3 .div2{
+    height:200px ;
+    width: 200px;
+    background-color: aquamarine;
+    /* position: absolute; */
+} 
+  .banner3 .scroll3 .div3{
+    height:200px ;
+    width: 200px;
+    background-color: #ff385c;
+} 
+ .banner3 .scroll3 .div4{
+    height:200px ;
+    width: 200px;
+    background-color: yellow;
+} 
+ .banner3 .scroll3 .div5{
+    height:200px ;
+    width: 200px;
+    background-color: yellowgreen;
+} 
+ .banner3 .scroll3 .div6{
+    height:200px ;
+    width: 200px;
+    background-color: turquoise;
+} 
+ .banner3 .scroll3 .div7{
+    height:200px ;
+    width: 200px;
+    background-color: tomato;
+}  
+.banner3 .scroll3 .div8{
+    height:200px ;
+    width: 200px;
+    background-color: steelblue;
+}  
