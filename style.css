@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
 body {
     margin: 0;
+
 }
 
 .nav {
     height: 110px;
-    width: 100vw;
+    width: 100%;
     /* background-color: aqua; */
     display: flex;
+    /* position: fixed; */
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
@@ -48,6 +58,12 @@ body {
     width: 50px;
 }
 
+/* .nav .sbar .sbarimg img2 {
+    height: 50px;
+    width: 50px;
+    display: none;
+} */
+
 .nav .sbar .sbarsearch img {
     height: 20px;
     width: 20px;
@@ -59,7 +75,7 @@ body {
 
 }
 
-.nav img {
+.nav .logo img {
     height: 40px;
     width: 100px;
     margin-left: 20px;
@@ -98,12 +114,19 @@ body {
 
 }
 
-
-@media screen and (max-width:1128px) {
-    .nav .home p {
-        display: none;
-    }
+.nav .sep img {
+    height: 30px;
+    width: 30px;
+    display: none;
 }
+
+.nav .sbar .s770 p {
+    margin-left: 120px;
+
+    /* margin: 10px; */
+    display: none;
+}
+
 
 /* banner 1 */
 
@@ -115,6 +138,8 @@ body {
     position: absolute;
     top: 110px;
     display: block;
+    margin-left: -30px;
+
 
 }
 
@@ -206,6 +231,7 @@ body {
     position: absolute;
     top: 400px;
     display: block;
+    margin-left: -30px;
 
 }
 
@@ -297,6 +323,7 @@ body {
     position: absolute;
     top: 700px;
     display: block;
+    margin-left: -30px;
 
 }
 
@@ -387,6 +414,7 @@ body {
     position: absolute;
     top: 1000px;
     display: block;
+    margin-left: -30px;
 
 }
 
@@ -469,25 +497,28 @@ body {
 .end {
     height: 500px;
     width: 100%;
+    /* left: 10px; */
+    box-sizing: border-box;
     /* background-color: yellowgreen; */
     position: absolute;
     top: 1310px;
+    padding: 50px;
 }
 
 .end h4 {
-    margin-left: 110px;
+    /* margin-left: 110px; */
     margin-top: 50px;
 }
 
 .end hr {
     margin-top: 10px;
-    width: 1000px;
+    width: 80%;
 }
 
 .end .di {
-    margin-left: 40px;
+    /* margin-left: 40px; */
     height: 400px;
-    width: 1000px;
+    width: 90%;
     /* background-color: #ff385c; */
     display: flex;
     justify-content: space-between;
@@ -528,4 +559,144 @@ body {
     /* background-color: aqua ; */
     font-size: 13px;
 
+}
+
+
+.nav .s2nav img {
+    height: 60px;
+    width: 70px;
+    display: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1128px) {
+    .nav .home p {
+        display: none;
+    }
+.nav {
+        height: 110px;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        position: fixed;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        /* position: fixed; */
+        /* position: absolute; */
+    }
+}
+
+@media screen and (max-width:970px) {
+
+    .nav .logo img {
+        display: none;
+    }
+
+    .nav .sep img {
+        display: inline;
+    }
+.banner1 .scroll1 {
+    height: 220px;
+    width: 1150px;
+    /* background-color: wheat; */
+    margin-left: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    scrollbar-width: none;
+
+    /* position: relative; */
+
+}
+.end .di{
+    display: block;
+}
+
+}
+
+
+@media screen and (max-width:740px) {
+    .nav .sep img {
+        display: none;
+    }
+
+    .nav .sbar .a p {
+        display: none;
+    }
+
+    .nav .sbar .b p {
+        display: none;
+    }
+
+    .nav .sbar .c p {
+        display: none;
+    }
+
+    .nav .home {
+        display: none;
+    }
+
+    .nav .sbar .sbarsearch img {
+        display: none;
+    }
+
+    .nav .sbar .sbarimg img {
+        display: none;
+    }
+
+    .nav .sbar .s770 p {
+        display: inline;
+    }
+
+    .sbar {
+        height: 45px;
+        width: 500px;
+        background-color: whitesmoke;
+        border-radius: 25px;
+        display: flex;
+
+        align-content: center;
+        justify-content: space-between;
+        margin-left: 300px;
+    }
+
+    .nav {
+        height: 110px;
+        width: 100%;
+        /* background-color: aqua; */
+        display: block;
+        position: fixed;
+        align-content: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        /* position: fixed; */
+        /* position: absolute; */
+    }
+/* .nav.s2nav{
+    display: inline;
+    
+} */
+ .nav .s2nav {
+width: 600px;
+padding-left: 400px;
+display: flex;
+align-content: center;
+gap: 30px;
+/* justify-content:space-between ; */
+ }
+.nav .s2nav img{
+    display: inline;
+/* height: 50px;
+width: 50px; */
+/* margin-left: 200px; */
+}
 }
