@@ -14,8 +14,10 @@ body {
 .nav {
     height: 110px;
     width: 100%;
-    /* background-color: aqua; */
+    background-color:white;
     display: flex;
+    position: fixed;
+    z-index: 10;
     /* position: fixed; */
     align-items: center;
     justify-content: space-between;
@@ -118,10 +120,11 @@ body {
     height: 30px;
     width: 30px;
     display: none;
+    padding-right: 270px;
 }
 
 .nav .sbar .s770 p {
-    margin-left: 120px;
+    /* margin-left: 120px; */
 
     /* margin: 10px; */
     display: none;
@@ -150,6 +153,7 @@ body {
     margin-left: 50px;
     /* margin: 0; */
     box-sizing: border-box;
+
 
 
 }
@@ -578,12 +582,14 @@ body {
     .nav .home p {
         display: none;
     }
-.nav {
+
+    .nav {
         height: 110px;
         width: 100%;
-        /* background-color: aqua; */
+        background-color: white;
         display: flex;
         position: fixed;
+        z-index: 10;
         align-items: center;
         justify-content: space-between;
         box-sizing: border-box;
@@ -601,8 +607,75 @@ body {
     .nav .sep img {
         display: inline;
     }
-.banner1 .scroll1 {
-    height: 220px;
+
+
+
+
+    .banner1 .scroll1 {
+        height: 280px;
+        width: 1150px;
+        /* background-color: wheat; */
+        margin-left: 50px;
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        box-sizing: border-box;
+        scrollbar-width: none;
+
+        /* position: relative; */
+
+    }
+
+    .end .di {
+        display: block;
+    }
+
+
+
+
+    .banner1 .scroll1 .div1 {
+        height: 600px;
+        width: 300px;
+        flex-shrink: 0;
+        position: relative;
+        /* background-color: aliceblue; */
+        /* position: absolute; */
+
+    }
+
+    .scroll1 .div1 img {
+        height: 200px;
+        width: 220px;
+        border-radius: 15px;
+        margin-left: 15px;
+    }
+
+
+
+    .banner2 {
+        height: 250px;
+        width: 100vw;
+        /* background-color: violet; */
+        position: absolute;
+        top: 450px;
+        display: block;
+        margin-left: -30px;
+
+    }
+
+    .banner2 .scroll2 .div1 {
+        height: 6000px;
+        width: 300px;
+        flex-shrink: 0;
+        position: relative;
+        /* background-color: aliceblue; */
+        /* position: absolute; */
+
+    }
+    .banner2 .scroll2 {
+    height: 270px;
     width: 1150px;
     /* background-color: wheat; */
     margin-left: 50px;
@@ -617,14 +690,121 @@ body {
     /* position: relative; */
 
 }
-.end .di{
+
+    .scroll2 .div1 img {
+        height: 200px;
+        width: 220px;
+        border-radius: 15px;
+        margin-left: 15px;
+    }
+
+    .banner3 {
+    height: 250px;
+    width: 100vw;
+    /* background-color: violet; */
+    position: absolute;
+    top: 790px;
     display: block;
+    margin-left: -30px;
+
+}
+
+
+.banner3 .scroll3 {
+    height: 270px;
+    width: 1150px;
+    /* background-color: wheat; */
+    margin-left: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    scrollbar-width: none;
+
+    /* position: relative; */
+
+}
+
+
+.banner3 .scroll3 .div1 {
+    height: 6000px;
+        width: 300px;
+    flex-shrink: 0;
+    position: relative;
+    /* background-color: aliceblue; */
+    /* position: absolute; */
+
+}
+
+.scroll3 .div1 img {
+    height: 200px;
+        width: 220px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+.banner4 {
+    height: 250px;
+    width: 100vw;
+    /* background-color: violet; */
+    position: absolute;
+    top: 1130px;
+    display: block;
+    margin-left: -30px;
+
+}
+
+.banner4 .scroll4 {
+    height: 270px;
+    width: 1150px;
+    /* background-color: wheat; */
+    margin-left: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    /* position: relative; */
+    scrollbar-width: none;
+
+}
+
+
+.banner4 .scroll4 .div1 {
+     height: 6000px;
+    width: 300px;
+    flex-shrink: 0;
+    position: relative;
+    /* background-color: aliceblue; */
+    /* position: absolute; */
+
+}
+
+.scroll4 .div1 img {
+    height: 200px;
+    width: 220px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+.end{
+    top: 1410px;
+
 }
 
 }
+
+
+
+
+
 
 
 @media screen and (max-width:740px) {
+    
+
+    
     .nav .sep img {
         display: none;
     }
@@ -662,11 +842,9 @@ body {
         width: 500px;
         background-color: whitesmoke;
         border-radius: 25px;
-        display: flex;
-
-        align-content: center;
-        justify-content: space-between;
+        justify-content: center;
         margin-left: 300px;
+        padding-top: 20px;
     }
 
     .nav {
@@ -681,22 +859,24 @@ body {
         /* position: fixed; */
         /* position: absolute; */
     }
-/* .nav.s2nav{
+
+    /* .nav.s2nav{
     display: inline;
     
 } */
- .nav .s2nav {
-width: 600px;
-padding-left: 400px;
-display: flex;
-align-content: center;
-gap: 30px;
-/* justify-content:space-between ; */
- }
-.nav .s2nav img{
-    display: inline;
-/* height: 50px;
+    .nav .s2nav {
+        width: 600px;
+        padding-left: 350px;
+        display: flex;
+        align-content: center;
+        gap: 100px;
+        /* justify-content:space-between ; */
+    }
+
+    .nav .s2nav img {
+        display: inline;
+        /* height: 50px;
 width: 50px; */
-/* margin-left: 200px; */
-}
+        /* margin-left: 200px; */
+    }
 }
