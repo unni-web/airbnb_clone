@@ -14,7 +14,7 @@ body {
 .nav {
     height: 110px;
     width: 100%;
-    background-color:white;
+    background-color: white;
     display: flex;
     position: fixed;
     z-index: 10;
@@ -87,7 +87,7 @@ body {
     height: 50px;
     width: 250px;
     /* background-color: yellowgreen; */
-    align-content: center;
+    /* align-content: center; */
     margin-right: 20px;
     display: flex;
 }
@@ -97,7 +97,8 @@ body {
     width: 20px;
     background-color: whitesmoke;
     border-radius: 90px;
-    padding: 20%;
+    padding: 30%;
+    margin-top: 10px;
 
 
 }
@@ -153,9 +154,6 @@ body {
     margin-left: 50px;
     /* margin: 0; */
     box-sizing: border-box;
-
-
-
 }
 
 .banner1 .scroll1 {
@@ -674,22 +672,23 @@ body {
         /* position: absolute; */
 
     }
+
     .banner2 .scroll2 {
-    height: 270px;
-    width: 1150px;
-    /* background-color: wheat; */
-    margin-left: 50px;
-    display: flex;
-    gap: 30px;
-    justify-content: space-between;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    box-sizing: border-box;
-    scrollbar-width: none;
+        height: 270px;
+        width: 1150px;
+        /* background-color: wheat; */
+        margin-left: 50px;
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        box-sizing: border-box;
+        scrollbar-width: none;
 
-    /* position: relative; */
+        /* position: relative; */
 
-}
+    }
 
     .scroll2 .div1 img {
         height: 200px;
@@ -699,99 +698,101 @@ body {
     }
 
     .banner3 {
-    height: 250px;
-    width: 100vw;
-    /* background-color: violet; */
-    position: absolute;
-    top: 790px;
-    display: block;
-    margin-left: -30px;
+        height: 250px;
+        width: 100vw;
+        /* background-color: violet; */
+        position: absolute;
+        top: 790px;
+        display: block;
+        margin-left: -30px;
 
-}
-
-
-.banner3 .scroll3 {
-    height: 270px;
-    width: 1150px;
-    /* background-color: wheat; */
-    margin-left: 50px;
-    display: flex;
-    gap: 30px;
-    justify-content: space-between;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    box-sizing: border-box;
-    scrollbar-width: none;
-
-    /* position: relative; */
-
-}
+    }
 
 
-.banner3 .scroll3 .div1 {
-    height: 6000px;
+    .banner3 .scroll3 {
+        height: 270px;
+        width: 1150px;
+        /* background-color: wheat; */
+        margin-left: 50px;
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        box-sizing: border-box;
+        scrollbar-width: none;
+
+        /* position: relative; */
+
+    }
+
+
+    .banner3 .scroll3 .div1 {
+        height: 6000px;
         width: 300px;
-    flex-shrink: 0;
-    position: relative;
-    /* background-color: aliceblue; */
-    /* position: absolute; */
+        flex-shrink: 0;
+        position: relative;
+        /* background-color: aliceblue; */
+        /* position: absolute; */
 
-}
+    }
 
-.scroll3 .div1 img {
-    height: 200px;
+    .scroll3 .div1 img {
+        height: 200px;
         width: 220px;
-    border-radius: 15px;
-    margin-left: 15px;
-}
-.banner4 {
-    height: 250px;
-    width: 100vw;
-    /* background-color: violet; */
-    position: absolute;
-    top: 1130px;
-    display: block;
-    margin-left: -30px;
+        border-radius: 15px;
+        margin-left: 15px;
+    }
 
-}
+    .banner4 {
+        height: 250px;
+        width: 100vw;
+        /* background-color: violet; */
+        position: absolute;
+        top: 1130px;
+        display: block;
+        margin-left: -30px;
 
-.banner4 .scroll4 {
-    height: 270px;
-    width: 1150px;
-    /* background-color: wheat; */
-    margin-left: 50px;
-    display: flex;
-    gap: 30px;
-    justify-content: space-between;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    box-sizing: border-box;
-    /* position: relative; */
-    scrollbar-width: none;
+    }
 
-}
+    .banner4 .scroll4 {
+        height: 270px;
+        width: 1150px;
+        /* background-color: wheat; */
+        margin-left: 50px;
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        box-sizing: border-box;
+        /* position: relative; */
+        scrollbar-width: none;
+
+    }
 
 
-.banner4 .scroll4 .div1 {
-     height: 6000px;
-    width: 300px;
-    flex-shrink: 0;
-    position: relative;
-    /* background-color: aliceblue; */
-    /* position: absolute; */
+    .banner4 .scroll4 .div1 {
+        height: 6000px;
+        width: 300px;
+        flex-shrink: 0;
+        position: relative;
+        /* background-color: aliceblue; */
+        /* position: absolute; */
 
-}
+    }
 
-.scroll4 .div1 img {
-    height: 200px;
-    width: 220px;
-    border-radius: 15px;
-    margin-left: 15px;
-}
-.end{
-    top: 1410px;
+    .scroll4 .div1 img {
+        height: 200px;
+        width: 220px;
+        border-radius: 15px;
+        margin-left: 15px;
+    }
 
-}
+    .end {
+        top: 1410px;
+
+    }
 
 }
 
@@ -802,9 +803,9 @@ body {
 
 
 @media screen and (max-width:740px) {
-    
 
-    
+
+
     .nav .sep img {
         display: none;
     }
@@ -860,10 +861,7 @@ body {
         /* position: absolute; */
     }
 
-    /* .nav.s2nav{
-    display: inline;
-    
-} */
+
     .nav .s2nav {
         width: 600px;
         padding-left: 350px;
@@ -875,8 +873,335 @@ body {
 
     .nav .s2nav img {
         display: inline;
-        /* height: 50px;
-width: 50px; */
-        /* margin-left: 200px; */
+
+    }
+
+
+
+
+    .banner1 .scroll1 {
+        height: 500px;
+        width: 1150px;
+        /* background-color: wheat; */
+        margin-left: 50px;
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        box-sizing: border-box;
+        scrollbar-width: none;
+
+        /* position: relative; */
+
+    }
+
+    .banner1 .scroll1 .div1 {
+        height: 820px;
+        width: 500px;
+        flex-shrink: 0;
+        position: relative;
+        /* background-color: aliceblue; */
+        /* position: absolute; */
+
+    }
+
+    .scroll1 .div1 img {
+        height: 400px;
+        width: 420px;
+        border-radius: 15px;
+        margin-left: 15px;
+    }
+
+    .scroll1 .div1 p {
+        font-size: 18px;
+        margin-top: 2px;
+        margin-left: 18px;
+        margin-bottom: 0px;
+    }
+
+    .scroll1 .div1 h4 {
+        font-size: 18px;
+        margin-left: 20px;
+
+        margin-top: 0;
+        /* position: absolute; */
+        text-decoration: none;
+        color: #b7b7b8;
+    }
+    .scroll1 .div1 button {
+    position: absolute;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px;
+    opacity: 90%;
+    top: 10px;
+    left: 30px;
+    font-size: 15px;
+    z-index: 5;
+}
+    .banner1 .text h4 {
+        font-size: 25px;
+    height: 30px;
+    width: 500px;
+    /* background-color: hsl(349, 100%, 61%); */
+    margin-left: 50px;
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+.banner2 .text2 h4 {
+        font-size: 25px;
+    height: 30px;
+    width: 500px;
+    /* background-color: hsl(349, 100%, 61%); */
+    margin-left: 50px;
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+.banner3 .text3 h4 {
+        font-size: 25px;
+    height: 30px;
+    width: 500px;
+    /* background-color: hsl(349, 100%, 61%); */
+    margin-left: 50px;
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+.banner4 .text4 h4 {
+        font-size: 25px;
+    height: 30px;
+    width: 500px;
+    /* background-color: hsl(349, 100%, 61%); */
+    margin-left: 50px;
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+
+
+    .banner2 {
+        height: 250px;
+        width: 100vw;
+        /* background-color: violet; */
+        position: absolute;
+        top: 680px;
+        display: block;
+        margin-left: -30px;
+
+    }
+.scroll2 .div1 button {
+    position: absolute;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px;
+    opacity: 90%;
+    top: 10px;
+    left: 30px;
+    font-size: 15px;
+    z-index: 5;
+}
+
+    .banner2 .scroll2 .div1 {
+        height: 820px;
+        width: 500px;
+
+        flex-shrink: 0;
+        position: relative;
+        /* background-color: aliceblue; */
+        /* position: absolute; */
+
+    }
+
+    .banner2 .scroll2 {
+        height: 500px;
+        width: 1150px;
+        /* background-color: wheat; */
+        margin-left: 50px;
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        box-sizing: border-box;
+        scrollbar-width: none;
+
+        /* position: relative; */
+
+    }
+
+    .scroll2 .div1 img {
+        height: 400px;
+        width: 420px;
+        border-radius: 15px;
+        margin-left: 15px;
+    }
+
+    .scroll2 .div1 p {
+        font-size: 18px;
+        margin-top: 2px;
+        margin-left: 18px;
+        margin-bottom: 0px;
+    }
+
+    .scroll2 .div1 h4 {
+        font-size: 18px;
+        margin-left: 20px;
+
+        margin-top: 0;
+        /* position: absolute; */
+        text-decoration: none;
+        color: #b7b7b8;
+    }
+
+    .banner3 {
+        height: 250px;
+        width: 100vw;
+        /* background-color: violet; */
+        position: absolute;
+        top: 1270px;
+        display: block;
+        margin-left: -30px;
+
+    }
+
+
+    .banner3 .scroll3 {
+        height: 500px;
+        width: 1150px;
+        /* background-color: wheat; */
+        margin-left: 50px;
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        box-sizing: border-box;
+        scrollbar-width: none;
+
+        /* position: relative; */
+
+    }
+.scroll3 .div1 button {
+    position: absolute;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px;
+    opacity: 90%;
+    top: 10px;
+    left: 30px;
+    font-size: 15px;
+    z-index: 5;
+}
+
+
+    .banner3 .scroll3 .div1 {
+        height: 820px;
+        width: 500px;
+        flex-shrink: 0;
+        position: relative;
+        /* background-color: aliceblue; */
+        /* position: absolute; */
+
+    }
+
+    .scroll3 .div1 img {
+        height: 400px;
+        width: 420px;
+        border-radius: 15px;
+        margin-left: 15px;
+    }
+
+    .scroll3 .div1 p {
+        font-size: 18px;
+        margin-top: 2px;
+        margin-left: 18px;
+        margin-bottom: 0px;
+    }
+
+    .scroll3 .div1 h4 {
+        font-size: 18px;
+        margin-left: 20px;
+
+        margin-top: 0;
+        /* position: absolute; */
+        text-decoration: none;
+        color: #b7b7b8;
+    }
+
+    .banner4 {
+        height: 250px;
+        width: 100vw;
+        /* background-color: violet; */
+        position: absolute;
+        top: 1850px;
+        display: block;
+        margin-left: -30px;
+
+    }
+    .scroll4 .div1 button {
+    position: absolute;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px;
+    opacity: 90%;
+    top: 10px;
+    left: 30px;
+    font-size: 15px;
+    z-index: 5;
+}
+
+    .banner4 .scroll4 {
+        height: 500px;
+        width: 1150px;
+        /* background-color: wheat; */
+        margin-left: 50px;
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        box-sizing: border-box;
+        /* position: relative; */
+        scrollbar-width: none;
+
+    }
+
+
+    .banner4 .scroll4 .div1 {
+        height: 820px;
+        width: 500px;
+        flex-shrink: 0;
+        position: relative;
+        /* background-color: aliceblue; */
+        /* position: absolute; */
+
+    }
+
+    .scroll4 .div1 img {
+        height: 400px;
+        width: 420px;
+        border-radius: 15px;
+        margin-left: 15px;
+    }
+
+    .scroll4 .div1 p {
+        font-size: 18px;
+        margin-top: 2px;
+        margin-left: 18px;
+        margin-bottom: 0px;
+    }
+
+    .scroll4 .div1 h4 {
+        font-size: 18px;
+        margin-left: 20px;
+
+        margin-top: 0;
+        /* position: absolute; */
+        text-decoration: none;
+        color: #b7b7b8;
+    }
+
+    .end {
+        top: 2380px;
+
     }
 }
